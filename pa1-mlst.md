@@ -21,8 +21,12 @@ a prior run in January 2025 (not documented I don't think...).
 
 ### ARIBA (run locally and uploaded to arc)
 
-- ARIBA databsae is in `/work/parkins_lab/project/conrad/pa-2025/mlst/ap1-ariba/pa_mlst/`
+- ARIBA database is in `/work/parkins_lab/project/conrad/pa-2025/mlst/ap1-ariba/pa_mlst/`
 - `run_pa_ariba_mlst.txt` contains individual commands to run ARIBA for all PA genomes
+
+### pyMLST
+
+- *Not sure where the pyMLST db is but it would have been the PA db...*
 
 ## Outputs
 
@@ -38,6 +42,11 @@ a prior run in January 2025 (not documented I don't think...).
 - General output directory: `/work/parkins_lab/project/conrad/pa-2025/mlst/pa1-ariba/`
 - Raw ARIBA output directory: `/work/parkins_lab/project/conrad/pa-2025/mlst/pa1-ariba/ariba-output/`
 - Summary file: `/work/parkins_lab/project/conrad/pa-2025/mlst/pa1-ariba/ariba-mlst-summary.txt`
+
+### pyMLST
+
+- General output directory: `/work/parkins_lab/project/conrad/pa-2025/mlst/pymlst-jan2025/`
+- Summary file: `/work/parkins_lab/project/conrad/pa-2025/mlst/pymlst-jan2025/pymlst-summary.txt`
 
 ## Commands/Pipeline
 
@@ -87,6 +96,9 @@ for i in $(cat /work/parkins_lab/project/conrad/pa-2025/good-pa-list.clean.txt);
 /work/parkins_lab/project/conrad/pa-2025/mlst/pa1-ariba/ariba-mlst-summary.txt
 ```
 
+### pyMLST
+
+- *pyMLST commands were not recorded...see website for general commands; I assume standard commands were used.*
 
 ## Notes
 
